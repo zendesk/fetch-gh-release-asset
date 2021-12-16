@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker.pkg.github.com/zendesk/dockerhub-images/alpine:latest
 
 RUN	apk add --no-cache \
   bash \
